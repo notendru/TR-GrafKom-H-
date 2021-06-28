@@ -107,7 +107,7 @@ void menara() {
 void atap_menara() {
     //belakang
     glBegin(GL_POLYGON);
-    glColor3f(1.7, 0.4, 0.1);
+    glColor3f(0.961, 0.871, 0.702);
     glVertex3f(-20, 70, -30);
     glVertex3f(-10, 70, -30);
     glVertex3f(-15, 110, -25);
@@ -115,7 +115,7 @@ void atap_menara() {
 
     //depan
     glBegin(GL_POLYGON);
-    glColor3f(1.7, 0.4, 0.1);
+    glColor3f(0.961, 0.871, 0.702);
     glVertex3f(-20, 70, -20);
     glVertex3f(-10, 70, -20);
     glVertex3f(-15, 110, -25);
@@ -123,7 +123,7 @@ void atap_menara() {
 
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(1.7, 1.4, 0.1);
+    glColor3f(0.961, 0.871, 0.702);
     glVertex3f(-20, 70, -30);
     glVertex3f(-15, 110, -25);
     glVertex3f(-20, 70, -20);
@@ -131,7 +131,7 @@ void atap_menara() {
 
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(0.7, 0.4, 1.1);
+    glColor3f(0.961, 0.871, 0.702);
     glVertex3f(-10, 70, -30);
     glVertex3f(-15, 110, -25);
     glVertex3f(-10, 70, -20);
@@ -1814,7 +1814,7 @@ void papan_tulis() {
 void meja(){
     //atas
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 0.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f(-12, -12, -7);
     glVertex3f(-12, -12, -12);
     glVertex3f( 0, -12, -12);
@@ -1823,7 +1823,7 @@ void meja(){
 
     //bawah
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 0.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f(-12, -14, -7);
     glVertex3f(-12, -14, -12);
     glVertex3f( 0, -14, -12);
@@ -1832,16 +1832,25 @@ void meja(){
 
     //belakang
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 0.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f(-12, -14, -12);
     glVertex3f(-12, -12, -12);
     glVertex3f( 0, -12, -12);
     glVertex3f( 0, -14, -12);
     glEnd();
 
+    //depan
+    glBegin(GL_POLYGON);
+    glColor3f(0.545, 0.271, 0.075);
+    glVertex3f(-12, -14, -7);
+    glVertex3f(-12, -12, -7);
+    glVertex3f( 0, -12, -7);
+    glVertex3f( 0, -14, -7);
+    glEnd();
+
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(0.5f, 0.0f, 1.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f(-12, -14, -7);
     glVertex3f(-12, -12, -7);
     glVertex3f(-12, -12, -12);
@@ -1850,7 +1859,7 @@ void meja(){
 
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(0.5f, 0.0f, 1.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f( 0, -14, -7);
     glVertex3f( 0, -12, -7);
     glVertex3f( 0, -12, -12);
@@ -1860,7 +1869,7 @@ void meja(){
     //kaki
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( -7, -14, -8.5);
     glVertex3f( -7, -14, -11.5);
     glVertex3f( -7, -18, -11.5);
@@ -1869,7 +1878,7 @@ void meja(){
 
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( -5, -14, -8.5);
     glVertex3f( -5, -14, -11.5);
     glVertex3f( -5, -18, -11.5);
@@ -1878,7 +1887,7 @@ void meja(){
 
     //belakang
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( -7, -14, -11.5);
     glVertex3f( -5, -14, -11.5);
     glVertex3f( -5, -18, -11.5);
@@ -1887,7 +1896,7 @@ void meja(){
 
     //depan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( -7, -14, -8.5);
     glVertex3f( -5, -14, -8.5);
     glVertex3f( -5, -18, -8.5);
@@ -1898,7 +1907,7 @@ void meja(){
 void kursi(){
     //atas
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.545, 0.271, 0.075);
     glVertex3f( 2, -15, -5);
     glVertex3f( 2, -15, -2);
     glVertex3f( 5, -15, -2);
@@ -1908,7 +1917,7 @@ void kursi(){
     //kaki
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 3, -15, -4);
     glVertex3f( 3, -15, -2);
     glVertex3f( 3, -18, -2);
@@ -1917,7 +1926,7 @@ void kursi(){
 
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 4, -15, -4);
     glVertex3f( 4, -15, -2);
     glVertex3f( 4, -18, -2);
@@ -1926,7 +1935,7 @@ void kursi(){
 
     //belakang
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 1.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 3, -15, -4);
     glVertex3f( 4, -15, -4);
     glVertex3f( 4, -18, -4);
@@ -1935,7 +1944,7 @@ void kursi(){
 
     //depan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 1.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 3, -15, -2);
     glVertex3f( 4, -15, -2);
     glVertex3f( 4, -18, -2);
@@ -1946,7 +1955,7 @@ void kursi(){
 void loker(){
     //atas
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 1.0f);
+    glColor3f(0.663, 0.663, 0.663);
     glVertex3f( 6, 0, -2);
     glVertex3f( 10, 0, -6);
     glVertex3f( 10, 0, -6);
@@ -1954,7 +1963,7 @@ void loker(){
 
     //bawah
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 1.0f);
+    glColor3f(0.663, 0.663, 0.663);
     glVertex3f( 6, -18, -2);
     glVertex3f( 10, -18, -6);
     glVertex3f( 10, -18, -6);
@@ -1963,7 +1972,7 @@ void loker(){
 
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 1.0f);
+    glColor3f(0.663, 0.663, 0.663);
     glVertex3f( 6, 0, -2);
     glVertex3f( 6, 0, -6);
     glVertex3f( 6, -18, -6);
@@ -1972,7 +1981,7 @@ void loker(){
 
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 1.0f);
+    glColor3f(0.663, 0.663, 0.663);
     glVertex3f( 10, 0, -2);
     glVertex3f( 10, 0, -6);
     glVertex3f( 10, -18, -6);
@@ -1981,7 +1990,7 @@ void loker(){
 
     //belakang
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 1.0f, 1.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 6, 0, -6);
     glVertex3f( 10, 0, -6);
     glVertex3f( 10, -18, -6);
@@ -1990,7 +1999,7 @@ void loker(){
 
     //depan
     glBegin(GL_POLYGON);
-    glColor3f(1.0f, 0.0f, 0.0f);
+    glColor3f(0.753, 0.753, 0.753);
     glVertex3f( 6, 0, -2);
     glVertex3f( 10, 0, 0);
     glVertex3f( 10, -18, 0);
