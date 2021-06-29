@@ -1,4 +1,4 @@
-# TR-GrafKom-H-
+# TR-GrafKom-H-Universiteit Bibliotheek KU Leuven
 3d Building with OpenGL (Universiteit Bibliotheek KU Leuven)
 Elifas Gavra Harnanda (672019223)
 Arya Damar Pratama (672019227)
